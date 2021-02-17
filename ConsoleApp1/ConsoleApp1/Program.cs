@@ -1,12 +1,17 @@
 ﻿using System;
 
-namespace ConsoleApp1
+namespace EmployeeWage
 {
-    class Program
-    {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Welcome to Empwage");
-        }
-    }
+	public class Program
+	{
+		public static void Main(String[] args)
+		{
+			EmpWageBuilder empWageBuilder = new EmpWageBuilder();
+			empWageBuilder.AddCompany("Relaince", 4000, 84, 258);
+			empWageBuilder.AddCompany("Godrej", 940, 80, 240);
+			empWageBuilder.AddCompany("Google", 250, 90, 850);
+			empWageBuilder.AddCompany("TATA", 8000, 50, 200);
+			empWageBuilder.DisplayCompanyWages();
+		}
+	}
 }
