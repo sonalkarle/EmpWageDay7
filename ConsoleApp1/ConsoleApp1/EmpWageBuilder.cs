@@ -3,7 +3,7 @@ using System.Text;
 
 namespace EmployeeWage
 {
-	class EmpWageBuilder
+	class EmpWageBuilder : Interfaceclass
 	{
 		const int FULL_DAY_HOUR = 8;
 		const int PART_TIME_HOUR = 4;
