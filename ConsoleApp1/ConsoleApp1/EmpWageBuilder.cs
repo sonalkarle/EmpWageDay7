@@ -80,5 +80,9 @@ namespace EmployeeWage
 				company.printDailyWage();
 			}
 		}
+		public int GetMonthlyWageByCompanyName(string companyName)
+		{
+			return companiesDictionary[companyName].wagesPerMonth;
+		}
 	}
 }

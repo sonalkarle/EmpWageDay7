@@ -13,6 +13,7 @@ namespace EmployeeWage
 			empWageBuilder.AddCompany("TATA", 8000, 50, 200);
 			empWageBuilder.DisplayCompanyMonthlyWages();
 			empWageBuilder.DisplayCompanyDailyWages();
+			Console.WriteLine($"Monthly Wages for Google are {empWageBuilder.GetMonthlyWageByCompanyName("Google")} ");
 		}
 	}
 }
